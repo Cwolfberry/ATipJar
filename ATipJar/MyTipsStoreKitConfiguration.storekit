@@ -69,7 +69,9 @@
     "_billingGracePeriodEnabled" : false,
     "_billingIssuesEnabled" : false,
     "_failTransactionsEnabled" : false,
+    "_locale" : "en_US",
     "_renewalBillingIssuesEnabled" : false,
+    "_storefront" : "USA",
     "_storeKitErrors" : [
       {
         "current" : null,
