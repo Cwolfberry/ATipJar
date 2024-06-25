@@ -1,0 +1,128 @@
+{
+  "identifier" : "49FA4D90",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "0.99",
+      "familyShareable" : false,
+      "internalID" : "F149FFCC",
+      "localizations" : [
+        {
+          "description" : "Treat me to a slice of Pizza",
+          "displayName" : "Gimme a slice 🍕",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.yxdz.ATipJar.tinytip",
+      "referenceName" : "Tiny Tip",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "1.99",
+      "familyShareable" : false,
+      "internalID" : "5C31B257",
+      "localizations" : [
+        {
+          "description" : "Treat me to a Cruller doughnut (da best)",
+          "displayName" : "Gimme a ring 🍩",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.yxdz.ATipJar.smalltip",
+      "referenceName" : "Small Tip",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "3.99",
+      "familyShareable" : false,
+      "internalID" : "AB8B1456",
+      "localizations" : [
+        {
+          "description" : "Treat me to a big mac",
+          "displayName" : "Gimme a burger 🍔",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.yxdz.ATipJar.mediumtip",
+      "referenceName" : "Medium Tip",
+      "type" : "Consumable"
+    },
+    {
+      "displayPrice" : "10.99",
+      "familyShareable" : false,
+      "internalID" : "14A7C1B2",
+      "localizations" : [
+        {
+          "description" : "You must really like me 😘",
+          "displayName" : "Gimme a steak 🥩",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.yxdz.ATipJar.largetip",
+      "referenceName" : "Large Tip",
+      "type" : "Consumable"
+    }
+  ],
+  "settings" : {
+    "_billingGracePeriodEnabled" : false,
+    "_billingIssuesEnabled" : false,
+    "_failTransactionsEnabled" : false,
+    "_renewalBillingIssuesEnabled" : false,
+    "_storeKitErrors" : [
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Load Products"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Purchase"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Verification"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Store Sync"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Subscription Status"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "App Transaction"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Manage Subscriptions Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Refund Request Sheet"
+      },
+      {
+        "current" : null,
+        "enabled" : false,
+        "name" : "Offer Code Redeem Sheet"
+      }
+    ]
+  },
+  "subscriptionGroups" : [
+
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
