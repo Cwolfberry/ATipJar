@@ -7,24 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0212504B2C2BE7D50051FCAF /* EntitlementManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0212504A2C2BE7D50051FCAF /* EntitlementManager.swift */; };
+		0212504D2C2BE7F80051FCAF /* SubscriptionsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0212504C2C2BE7F80051FCAF /* SubscriptionsManager.swift */; };
+		0212504F2C2BE82F0051FCAF /* SubscriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0212504E2C2BE82F0051FCAF /* SubscriptionView.swift */; };
 		0234A8F62C29967E00AEF79A /* ATipJarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0234A8F52C29967E00AEF79A /* ATipJarApp.swift */; };
 		0234A8F82C29967E00AEF79A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0234A8F72C29967E00AEF79A /* ContentView.swift */; };
 		0234A8FA2C29967F00AEF79A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0234A8F92C29967F00AEF79A /* Assets.xcassets */; };
 		0234A8FD2C29967F00AEF79A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0234A8FC2C29967F00AEF79A /* Preview Assets.xcassets */; };
 		0234A9042C2996EF00AEF79A /* TipsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0234A9032C2996EF00AEF79A /* TipsStore.swift */; };
-		0234A9062C2997D100AEF79A /* ProductsConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0234A9052C2997D100AEF79A /* ProductsConstants.swift */; };
 		0234A9092C2997F000AEF79A /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0234A9082C2997F000AEF79A /* StoreKit.framework */; };
 		0234A90C2C29A22900AEF79A /* MyProductsIdentifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0234A90B2C29A22900AEF79A /* MyProductsIdentifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		021250432C2BC8240051FCAF /* SubscriptionConfiguration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = SubscriptionConfiguration.storekit; sourceTree = "<group>"; };
+		0212504A2C2BE7D50051FCAF /* EntitlementManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntitlementManager.swift; sourceTree = "<group>"; };
+		0212504C2C2BE7F80051FCAF /* SubscriptionsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionsManager.swift; sourceTree = "<group>"; };
+		0212504E2C2BE82F0051FCAF /* SubscriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionView.swift; sourceTree = "<group>"; };
 		0234A8F22C29967E00AEF79A /* ATipJar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ATipJar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0234A8F52C29967E00AEF79A /* ATipJarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATipJarApp.swift; sourceTree = "<group>"; };
 		0234A8F72C29967E00AEF79A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0234A8F92C29967F00AEF79A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0234A8FC2C29967F00AEF79A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0234A9032C2996EF00AEF79A /* TipsStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipsStore.swift; sourceTree = "<group>"; };
-		0234A9052C2997D100AEF79A /* ProductsConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsConstants.swift; sourceTree = "<group>"; };
 		0234A9082C2997F000AEF79A /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		0234A90A2C299C0D00AEF79A /* MyTipsStoreKitConfiguration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = MyTipsStoreKitConfiguration.storekit; sourceTree = "<group>"; };
 		0234A90B2C29A22900AEF79A /* MyProductsIdentifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProductsIdentifiers.swift; sourceTree = "<group>"; };
@@ -42,6 +47,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		021250442C2BC9BB0051FCAF /* Subscription */ = {
+			isa = PBXGroup;
+			children = (
+				0212504A2C2BE7D50051FCAF /* EntitlementManager.swift */,
+				0212504C2C2BE7F80051FCAF /* SubscriptionsManager.swift */,
+				0212504E2C2BE82F0051FCAF /* SubscriptionView.swift */,
+				021250432C2BC8240051FCAF /* SubscriptionConfiguration.storekit */,
+			);
+			path = Subscription;
+			sourceTree = "<group>";
+		};
+		021250502C2BEA690051FCAF /* Purchase */ = {
+			isa = PBXGroup;
+			children = (
+				0234A9032C2996EF00AEF79A /* TipsStore.swift */,
+				0234A8F72C29967E00AEF79A /* ContentView.swift */,
+				0234A90A2C299C0D00AEF79A /* MyTipsStoreKitConfiguration.storekit */,
+				0234A90B2C29A22900AEF79A /* MyProductsIdentifiers.swift */,
+			);
+			path = Purchase;
+			sourceTree = "<group>";
+		};
 		0234A8E92C29967E00AEF79A = {
 			isa = PBXGroup;
 			children = (
@@ -62,14 +89,11 @@
 		0234A8F42C29967E00AEF79A /* ATipJar */ = {
 			isa = PBXGroup;
 			children = (
-				0234A9032C2996EF00AEF79A /* TipsStore.swift */,
+				021250502C2BEA690051FCAF /* Purchase */,
+				021250442C2BC9BB0051FCAF /* Subscription */,
 				0234A8F52C29967E00AEF79A /* ATipJarApp.swift */,
-				0234A8F72C29967E00AEF79A /* ContentView.swift */,
 				0234A8F92C29967F00AEF79A /* Assets.xcassets */,
 				0234A8FB2C29967F00AEF79A /* Preview Content */,
-				0234A9052C2997D100AEF79A /* ProductsConstants.swift */,
-				0234A90A2C299C0D00AEF79A /* MyTipsStoreKitConfiguration.storekit */,
-				0234A90B2C29A22900AEF79A /* MyProductsIdentifiers.swift */,
 			);
 			path = ATipJar;
 			sourceTree = "<group>";
@@ -161,10 +185,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				0234A90C2C29A22900AEF79A /* MyProductsIdentifiers.swift in Sources */,
+				0212504F2C2BE82F0051FCAF /* SubscriptionView.swift in Sources */,
 				0234A8F82C29967E00AEF79A /* ContentView.swift in Sources */,
 				0234A9042C2996EF00AEF79A /* TipsStore.swift in Sources */,
+				0212504B2C2BE7D50051FCAF /* EntitlementManager.swift in Sources */,
 				0234A8F62C29967E00AEF79A /* ATipJarApp.swift in Sources */,
-				0234A9062C2997D100AEF79A /* ProductsConstants.swift in Sources */,
+				0212504D2C2BE7F80051FCAF /* SubscriptionsManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,10 +321,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ATipJar/Preview Content\"";
-				DEVELOPMENT_TEAM = ZJ4V2D4H84;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = ZJ4V2D4H84;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -314,6 +343,8 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yxdz.ATipJar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = atipjar_dev_provision;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -325,10 +356,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ATipJar/Preview Content\"";
-				DEVELOPMENT_TEAM = ZJ4V2D4H84;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = ZJ4V2D4H84;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -344,6 +378,8 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.yxdz.ATipJar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = atipjar_dev_provision;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

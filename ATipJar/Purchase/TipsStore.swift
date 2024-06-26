@@ -2,7 +2,7 @@
 //  TipsStore.swift
 //  BuildingATipJar
 //
-//  Created by Tunde Adegoroye on 16/11/2022.
+//  Created by avalan.zhang on 6/24/24.
 //
 
 import Foundation
